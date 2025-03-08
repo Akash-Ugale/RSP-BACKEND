@@ -1,6 +1,6 @@
 import express from 'express'
 
-import {add,getAllRecipe, getRecipeById, getRecipeByUserId, savedRecipeById,getSavedRecipe} from '../controllers/recipe.js';
+import {add,getAllRecipe, getRecipeById, getRecipeByUserId, savedRecipeById,getSavedRecipe} from '../controllers/recipe-controller.js';
 import { Authenticate } from '../middlewares/auth.js';
 const router = express.Router();
 

@@ -1,9 +1,8 @@
 import express from "express";
 import bcrypt from "bcryptjs";
-import { register ,login, profile} from "../controllers/user.js";
+import { register ,login, profile} from "../controllers/user-controller.js";
 import { Authenticate } from "../middlewares/auth.js";
 import cors from 'cors';
-
 
 const router = express.Router();
 

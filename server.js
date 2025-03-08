@@ -1,10 +1,9 @@
 import express from "express";
 import mongoose from "mongoose";
 import "dotenv/config";
-import userRouter from "./routes/user.js"; // ✅ Corrected import
-import recipeRouter from './routes/recipe.js'
+import userRouter from "./routes/user-route.js";
+import recipeRouter from './routes/recipe-route.js'
 import cors from "cors"
-
 
 const app = express();
 
