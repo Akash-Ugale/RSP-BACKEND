@@ -1,5 +1,5 @@
-import { Recipe } from "../Models/recipe.js";
-import { SavedRecipe } from "../Models/saved-recipe.js";
+import { Recipe } from "../models/recipe.js";
+import { SavedRecipe } from "../models/saved-recipe.js";
 import mongoose from "mongoose";
 
 export const add = async (req, res) => {
